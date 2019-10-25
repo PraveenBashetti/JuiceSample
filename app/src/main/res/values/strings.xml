@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">JuiceSample</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_having_account">Already Have an Account???</string>
+    <string name="log_in">Log In</string>
+    <string name="not_having_account">Not Having an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Meet your Healthy cravings</string>
+    <string name="slide_1_desc">The easiest way to finish your hunger!!!</string>
+
+    <string name="slide_2_title">Life tastes better with maggie</string>
+    <string name="slide_2_desc">2 minute noodles </string>
+
+    <string name="slide_3_title">Best place for foodies</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Wide range of juices,milkshakes  and mastani</string>
+    <string name="slide_4_desc"> </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="juice1">mango juice</string>
+    <string name="juice2">morange juice</string>
+    <string name="juice3">pineapple juice</string>
+    <string name="juice4">apple juice</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

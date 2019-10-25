@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DashboardActivity">
+
+    <ScrollView
+        android:id="@+id/scrollhome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/slider_juices"
+                android:layout_width="match_parent"
+                android:layout_height="226dp"
+                android:background="@color/White" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/juices"
+            style="@style/homegridcard"
+            app:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/homemango"
+                    style="@style/homegridimage"
+                    android:src="@drawable/mangojuice" />
+
+                <TextView
+                    android:layout_below="@id/homemango"
+                    android:text="Mango juice"
+                    style="@style/homegridtext"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/milkshakes"
+            style="@style/homegridcard"
+            app:cardCornerRadius="0dp">
+
+        <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/milkshake"
+                        style="@style/homegridimage"
+                        android:src="@drawable/pineapple" />
+
+                    <TextView
+                        android:layout_below="@id/milkshake"
+                        android:text="Milkshakes"
+                        style="@style/homegridtext"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/mastanis"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/mastani"
+                            style="@style/homegridimage"
+                            android:src="@drawable/applejuice" />
+
+                        <TextView
+                            android:layout_below="@id/mastani"
+                            android:text="mastani"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/faloodas"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/falooda"
+                            style="@style/homegridimage"
+                            android:src="@drawable/orangejuice" />
+
+                        <TextView
+                            android:layout_below="@id/falooda"
+                            android:text="falooda"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/lassis"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/lassi"
+                            style="@style/homegridimage"
+                            android:src="@drawable/pasta" />
+
+                        <TextView
+                            android:layout_below="@id/lassi"
+                            android:text="Maggie"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/snacks"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/snack"
+                            style="@style/homegridimage"
+                            android:src="@drawable/sandwich" />
+
+                        <TextView
+                            android:layout_below="@id/snack"
+                            android:text="Sandwich"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/teas"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/tea"
+                            style="@style/homegridimage"
+                            android:src="@drawable/lassi" />
+
+                        <TextView
+                            android:layout_below="@id/tea"
+                            android:text="Lassi"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/icecreams"
+                    style="@style/homegridcard"
+                    app:cardCornerRadius="0dp"
+                    android:background="@drawable/corners">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/icecream"
+                            style="@style/homegridimage"
+                            android:src="@drawable/icecream" />
+
+                        <TextView
+                            android:layout_below="@id/icecream"
+                            android:text="Ice cream"
+                            style="@style/homegridtext"/>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
